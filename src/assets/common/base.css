@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    font-size: 14px;
+}
+.clear:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ul li,
+ol,li{
+    list-style: none;
+}
+a:hover,
+a:link,
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
